@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Motors Data</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://ionden.com/a/plugins/ion.rangeSlider/static/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="http://ionden.com/a/plugins/ion.rangeSlider/static/css/ion.rangeSlider.skinHTML5.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="top-section dealer-top">
+		<header>
+	      <nav class="navbar navbar-default main-navbar">
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-md-12">
+	              <!-- Brand and toggle get grouped for better mobile display -->
+	              <div class="navbar-header">
+	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	                  <span class="sr-only">Toggle navigation</span>
+	                  <span class="icon-bar"></span>
+	                  <span class="icon-bar"></span>
+	                  <span class="icon-bar"></span>
+	                </button>
+	                  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="MotorsData" class="logo-motorsdata"></a>
+	              </div>
+
+	              <!-- Collect the nav links, forms, and other content for toggling -->
+	              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-right">
+	                  <li class="dropdown">
+	                    <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
+	                    <ul class="dropdown-menu">
+	                      <li><a href="#">Price Analysis</a></li>
+	                      <li><a href="#">Competitors Analysis</a></li>
+	                      <li><a href="#">Catalog Optimization</a></li>
+	                      <li><a href="#">Marketplace Analysis</a></li>
+	                    </ul>
+	                  </li>
+	                  <li><a href="#">Pricing</a></li>
+	                  <li><a href="#">About Us</a></li>
+	                  <li><a href="#" class="btn btn-orange btn-sm">Sign up</a></li>
+	                  <li><a href="#" class="btn btn-blue btn-sm">Login</a></li>
+	                </ul>
+	              </div><!-- /.navbar-collapse -->
+	            </div>
+	          </div>
+	        </div><!-- /.container -->
+	      </nav>
+	    </header>
+	    <h1 class="text-center">Monitor all dealers around you<br>
+	    	<span>Be more competitive</span>
+		</h1>
+		<div class="container container-fluid-md">
+			<div class="row">
+				<div class="col-lg-5 col-md-4 text-center hidden-xs hidden-sm">
+					<img src="img/vehicle.png" alt="vehicle" class="vehicle-img">
+				</div>
+				<div class="col-lg-7 col-md-8">
+					<div class="maketest-container">
+						<form class="maketest-form">
+							<div class="maketest-search">
+								<div class="select-maketest-wrapper">
+									<label for="Brand">Brand</label><br>
+		            	<select name="brand" id="brand" class="custom-select company-select" placeholder="IVECO">
+		                <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+		                <option value="VOLVO FH16">VOLVO FH16</option>
+                    <option value="VOLVO FH">VOLVO FH ABC</option>
+                    <option value="VOLVO FH">VOLVO FH CDF</option>
+                    <option value="VOLVO FH">VOLVO FH 567 890</option>
+                    <option value="VOLVO FH">VOLVO addasd</option>
+                    <option value="VOLVO FH">VOLVO FH</option>
+                    <option value="VOLVO FH">VOLVO FH</option>
+                    <option value="VOLVO FH">VOLVO </option>
+                    <option value="VOLVO FH">VOLVO FH 13 ydg</option>
+                    <option value="VOLVO FH">VOLVO FH OOO CPK 444</option>
+		                <option value="VOLVO FH">VOLVO FH</option>
+		              </select>
+	            	</div>
+                <div class="select-maketest-wrapper">
+                  <label for="vehicle">Vehicle</label><br>
+                  <select name="vehicle" id="vehicle" class="custom-select company-select" placeholder="IVECO AS440 CX">
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                    <option value="VOLVO FH16">VOLVO FH16</option>
+                    <option value="VOLVO FH">VOLVO FH</option>
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                    <option value="VOLVO FH">VOLVO FH</option>
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                    <option value="IVECO AS440 CX">IVECO AS440 CX</option>
+                  </select>
+                </div>
+	            	<div class="range-maketest-wrapper">
+	            		<label for="mileage">Mileage</label><br>
+	            		<div class="range-container">
+	            			<input type="range" name="mileage" id="mileage">
+	            		</div>
+	            	</div>
+	            	<div class="range-maketest-wrapper second-range">
+	            		<label for="year">Year</label><br>
+	            		<div class="range-container">
+	            			<input type="range" name="year" id="year">
+	            		</div>
+	            	</div>
+	            	<div class="select-maketest-wrapper">
+						       <label for="country">Country</label><br>
+		            	<select name="country" id="country" class="custom-select company-select" placeholder="Italy">
+		                <option value="Italy">Italy</option>
+		                <option value="Germany">Germany</option>
+		                <option value="France">France</option>
+		              </select>
+	            	</div>
+	            	<div class="select-maketest-wrapper">
+						       <label for="city">City</label><br>
+		            	<select name="city" id="city" class="custom-select company-select" placeholder="Rome">
+		                <option value="Rome">Rome</option>
+		                <option value="Milan">Milan</option>
+		                <option value="Napoli">Napoli</option>
+		              </select>
+	            	</div>
+							</div>
+							<div class="maketest-result">
+								<div class="price-category">
+									<div class="lower">
+										<h5>LOWER</h5>
+										25.000
+									</div>
+									<div class="average">
+										<h5>AVERAGE</h5>
+										35.000
+									</div>
+									<div class="maximum">
+										<h5>MAXIMUM</h5>
+										45.000
+									</div>
+								</div>
+								<div class="dealer-price">
+									<div class="dealer dealer-min">
+										Dealer 1
+										<span class="price-min">&#8364 25.000</span>
+									</div>
+									<div class="dealer dealer-max">
+										Dealer 2
+										<span class="price-max">&#8364 45.000</span>
+									</div>
+									<div class="dealer dealer-3">
+										Dealer 3
+										<span>&#8364 42.500</span>
+									</div>
+									<div class="dealer dealer-3">
+										Dealer 4
+										<span>&#8364 38.900</span>
+									</div>
+									<div class="dealer dealer-3">
+										Dealer 5
+										<span>&#8364 35.600</span>
+									</div>
+								</div>
+								<button class="maketest-btn btn btn-orange">Show more<i class="fas fa-angle-right"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>  
+	</section>
+	<section class="client-monitor-section">
+		<h4 class="text-center">We daily monitor</h4>
+		<div class="client-logo-container">
+			<a href="#" target="_blank">
+				<img src="img/truck.png" alt="truck">
+			</a>
+			<a href="#" target="_blank">
+				<img src="img/mobilede.png" alt="mobile">
+			</a>
+			<a href="#" target="_blank">
+				<img src="img/otomoto.png" alt="otomoto">
+			</a>
+			<a href="#" target="_blank">
+				<img src="img/autoline.png" alt="autoline">
+			</a>
+		</div>
+	</section>
+    <section class="video-section bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="larger-h3">Win the price battle without lowering your margins</h3>
+            <h4>Competitive intelligence is not about prices is about itelligence</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="preview-container">
+              <img alt="" src="img/video-preview.jpg" class="bmd-modalButton video-preview" data-toggle="modal" data-bmdSrc="https://player.vimeo.com/video/241007433" data-bmdWidth="700" data-bmdHeight="381" data-target="#myModal">
+              <div class="play-btn bmd-modalButton" data-toggle="modal" data-bmdSrc="https://player.vimeo.com/video/241007433" data-bmdWidth="700" data-bmdHeight="381" data-target="#myModal">
+                <img src="img/play-btn.png" alt="play">
+              </div>
+            </div>
+            <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content bmd-modalContent">
+                <div class="modal-body">
+                  <div class="close-button">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="description-section after-video-section">
+      <div class="container">
+        <div class="row descr-row row-eq-height">
+          <div class="col-md-6 col-md-push-6">
+            <img class="descr-img" src="img/amazon-ebay-price-monitoring.png" alt="amazon-ebay-price-monitoring">
+          </div>
+          <div class="col-md-6 col-md-pull-6">
+            <div class="v-aligner">
+              <div class="description-txt">
+                <h3>Marketplace Price Monitoring</h3>
+                <p>
+                  <span class="text-bold">Monitor your competitor</span>'s products price in any country, currency or marketplace (e.g. Amazon and eBay), on daily basis.
+                  No URL to paste, just import your products in Pricefy and let it do the hard job for you.
+                </p>
+                <p>
+                  Discover how competitive your prices are, identifying where you are higher or lower, being able to adjust your prices and increase your profits.
+                </p>
+                <a class="uppercase" href="https://new.pricefy.io/marketplace-competitors-analysis.html">Read more about Amazon & eBay Price Monitoring feature<img src="img/arrow-right.png" alt="Amazon and eBay price monitoring service"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row descr-row row-eq-height">
+          <div class="col-md-6">
+            <img class="descr-img" src="img/ecommerce-markets-opportunity.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <div class="v-aligner">
+              <div class="description-txt">
+                <h3> Products and Markets Opportunities Data</h3>
+                <p>
+                  Discover bestseller products of your categories on each country, how popular they are and for how long they stayed in chart.
+                </p>
+                <p>
+                  Pricefy will provide you the most valuable  information about trending products and market opportunity to let you  expand and conquer new markets.
+                </p>
+                <a class="uppercase" href="https://new.pricefy.io/ecommerce-market-opportunities.html">Read more about Market Opportunities<img src="img/arrow-right.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row descr-row row-eq-height">
+          <div class="col-md-6 col-md-push-6">
+            <img class="descr-img" src="img/competitor-price-monitor.png" alt="">
+          </div>
+          <div class="col-md-6 col-md-pull-6">
+            <div class="v-aligner">
+              <div class="description-txt">
+                <h3>Monitor All Kind of Competitor</h3>
+                <p>Despite other services, that monitor only Markplace or that ask you to insert a list or URLs, Pricefy can analyse all kind of eCommerce platform.</p>
+                <p>Our technology will helps you match your products with competitor's catalog so you can focus on what really matter, your pricing strategy.
+                </p>
+              <a class="uppercase" href="https://new.pricefy.io/ecommerce-competitor-analysis.html">Look how its easy monitor a competitor<img src="img/arrow-right.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="larger-h3">Even More Great Features</h3>
+            <h4>Here are even more ways Pricefy can help you be competitive</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="features-all">
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-1.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Catalog Quality Analysis</h4>
+                  <div class="feat-content">
+                    Know the reviews of all your products, taken from several sources.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-2.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Competitors Markup Analysis</h4>
+                  <div class="feat-content">
+                    Know which is your competitors average markup, based on your cost.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-3.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Catalog Unicity</h4>
+                  <div class="feat-content">
+                    Check how many of your products you have in common with competitors.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-4.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Competition</h4>
+                  <div class="feat-content">
+                    Know how many competitors you have on each single marketplace or country.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-5.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Products Opportunities</h4>
+                  <div class="feat-content">
+                    Browse the top 100 bestseller products of each of your categories.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-6.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Mail Reports</h4>
+                  <div class="feat-content">
+                  Receive daily/weekly report about your catalog situation.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-7.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Monitor Amazon Products Price</h4>
+                  <div class="feat-content">
+                    Compare your prices with Amazon to stay competitive.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-8.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Monitor eBay products price</h4>
+                  <div class="feat-content">
+                    Check eBay products price every day to be more competitive.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 feat-col">
+              <div class="feat-inner">
+                <div class="feat-icon"><img src="img/feat-9.png" alt=""></div>
+                <div class="feat-text">
+                  <h4>Automatic Product Match</h4>
+                  <div class="feat-content">
+                    Let our machine learning system auto-match your products.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="plans-section">
+      <div class="container">
+        <div class="text-center block-heading">
+          <h3 class="larger-h3 blue-txt">Pricing and Plans</h3>
+          <h4>Start analysing your competitors today with our Starter plan, is free, for ever!</h4>
+        </div>
+        <div class="plans-buttons">
+          <div class="singlebtn">
+            <a href="#" class="btn btn-sm btn-white">Billed monthly </a>
+          </div>
+          <div class="singlebtn">
+            <a href="#" class="btn btn-sm btn-blue">Billed yearly </a>
+            <div class="btn-descr">You’re saving 25%</div>
+          </div>
+        </div>
+        <div class="row row-eq-height">
+          <div class="col-md-3 col-sm-6">
+            <div class="plan-inner">
+              <div class="plan-header">
+                <div class="plan-title">Starter</div>
+                <div class="plan-price"><span class="lg">Free</span></div>
+                <div class="plan-descr">perfect to start</div>
+              </div>
+              <ul class="list-unstyled plan-ul">
+                <li><img src="img/checkmark.png" alt="">250 Products</li>
+                <li><img src="img/checkmark.png" alt="">Amazon & eBay</li>
+                <li><img src="img/checkmark.png" alt="">2 Countries</li>
+                <li><img src="img/checkmark.png" alt="">CMS Modules</li>
+                <li><img src="img/checkmark.png" alt="">API</li>
+              </ul>
+              <div class="plan-btn">
+                <a href="https://app.pricefy.io/register" class="btn btn-lg btn-green">Signup for free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="plan-inner">
+              <div class="plan-header">
+                <div class="plan-title">Lite</div>
+                <div class="plan-price"><span class="lg">49$</span>/month</div>
+                <div class="plan-descr">perfect to start</div>
+              </div>
+              <ul class="list-unstyled plan-ul">
+                <li><img src="img/checkmark.png" alt="">1000 Products</li>
+                <li><img src="img/checkmark.png" alt="">3 Competitors</li>
+                <li><img src="img/checkmark.png" alt="">Amazon & eBay</li>
+                <li><img src="img/checkmark.png" alt="">2 Countries</li>
+                <li><img src="img/checkmark.png" alt="">Price Alerts</li>
+                <li><img src="img/checkmark.png" alt="">CMS Modules</li>
+                <li><img src="img/checkmark.png" alt="">API</li>
+              </ul>
+              <div class="plan-btn">
+                <a href="https://app.pricefy.io/register" class="btn btn-lg btn-green">Signup for free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="plan-inner">
+              <div class="plan-header">
+                <div class="plan-title">Pro</div>
+                <div class="plan-price"><span class="lg">$99</span>/month</div>
+                <div class="plan-descr">ideal for e-commerce</div>
+              </div>
+              <ul class="list-unstyled plan-ul">
+                <li><img src="img/checkmark.png" alt="">5.000 Products</li>
+                <li><img src="img/checkmark.png" alt="">15 Competitors</li>
+                <li><img src="img/checkmark.png" alt="">All Marketplace</li>
+                <li><img src="img/checkmark.png" alt="">3 Countries</li>
+                <li><img src="img/checkmark.png" alt="">Opportunities Tool</li>
+                <li><img src="img/checkmark.png" alt="">Price Alerts</li>
+                <li><img src="img/checkmark.png" alt="">CMS Modules</li>
+                <li><img src="img/checkmark.png" alt="">API</li>
+              </ul>
+              <div class="plan-btn">
+                <a href="https://app.pricefy.io/register" class="btn btn-lg btn-green">Signup for free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="plan-inner">
+              <div class="plan-header">
+                <div class="plan-title">Business</div>
+                <div class="plan-price"><span class="lg">$299</span>/month</div>
+                <div class="plan-descr">great for scale up</div>
+              </div>
+              <ul class="list-unstyled plan-ul">
+                <li><img src="img/checkmark.png" alt="">15.000 Products</li>
+                <li><img src="img/checkmark.png" alt="">30 Competitors</li>
+                <li><img src="img/checkmark.png" alt="">All Marketplace</li>
+                <li><img src="img/checkmark.png" alt="">14 Countries</li>
+                <li><img src="img/checkmark.png" alt="">Opportunities Tool</li>
+                <li><img src="img/checkmark.png" alt="">Price Alerts</li>
+                <li><img src="img/checkmark.png" alt="">CMS Modules</li>
+                <li><img src="img/checkmark.png" alt="">API</li>
+              </ul>
+              <div class="plan-btn">
+                <a href="https://app.pricefy.io/register" class="btn btn-lg btn-green">Signup for free</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4 class="font-weight-bold">Trusted by happy customers</h4>
+          </div>
+        </div>
+        <div class="row logo-row">
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img class="client-logo" src="img/fiat.png" alt"Fiat">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+             <img class="client-logo" src="img/kway.png" alt"K.WAY">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img class="client-logo" src="img/guanxi.png" alt"Guanxi">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img class="client-logo" src="img/superga.png" alt"SUPERGA">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a href="#" class="uppercase">Check our case histories<img src="img/arrow-right.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+	<footer class="footer">
+      <div class="container">
+        <div class="row row-eq-height-footer">
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="footer-title">Pricefy.io</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Competitive Analysis</a></li>
+              <li><a href="#">Price Monitoring Software</a></li>
+              <li><a href="#">Amazon Price Monitoring</a></li>
+              <li><a href="#">Ebay Price Monitoring</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="footer-title">Contents</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Wiki</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Cms Modules</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="footer-title">Legal</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="footer-title">Company</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Our mission</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Jobs</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row copyright-row">
+          <div class="col-md-12">
+            <div class="copyright">
+              <b>Pricefy.io</b> is a Zikkio brand. Zikkio ltd - 35 Golders Way - N31XW - London - (GB)
+            </div>
+            <a class="scroll-top" onclick="topFunction()">top <img src="img/to-top.png" alt="top"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.2.0/js/ion.rangeSlider.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
